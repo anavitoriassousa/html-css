@@ -1,0 +1,88 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    background-color: #78d09d;
+}
+main, aside{
+    padding: 0px;
+    margin: 100px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+section{
+    background-color: white;
+}
+header{
+    background-image: linear-gradient(90deg, #19703D, #27B060, #2FD675);
+}
+#principal1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family:'Bebas Neue', cursive;
+}
+.principal{
+    text-align: center;
+    padding:10px;
+    color: rgb(255, 255, 255);
+}
+a.menu{
+    margin-left: 8px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 20px;
+}
+a.menu:hover{
+    text-decoration: underline;
+}
+
+h2{
+    /* @font-face {
+        font-family: '._idroid.otf' ;
+        src: url('__MACOSX\fontes\._idroid.otf');
+        format('opentype');
+
+    } */
+
+    padding: 7px;
+}
+#historia{
+    color: #095422;
+}
+p{
+    font-size: 1.5em;
+    text-indent: 15px;
+    
+}
+h3{
+    background-color: #87cca4;
+    padding: 2px;
+    margin: 10px;
+    color: #095422;
+}
+aside{
+    margin: 5px;
+    background-color: #78d09d;
+    border-radius: 3px;
+    
+}
+#extra{
+    color: white;
+    background-color: #07411a;
+}
+footer{
+    margin: 0px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+picture{
+    margin: 50px;
+}
+img#android{
+    margin-left: 250px;
+}
